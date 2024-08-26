@@ -1,0 +1,25 @@
+.A4{
+  background-color: white;
+  width: 1240px;
+  height: 1754px;
+
+}
+ 
+
+.addSection{
+  display: flex;
+  justify-content: center;
+  min-height: 50px;
+  margin-top: 5%;
+}
+
+.addButton{
+  border-radius: 100px;
+  max-width: 50px;
+  max-height: 70px;
+  background-color: rgb(80, 118, 231);
+  flex: 1 1 100%;
+  font-weight: bolder;
+  font-size: 20px;
+}
+

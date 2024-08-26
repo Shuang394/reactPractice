@@ -1,0 +1,79 @@
+
+.header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 30px;
+    height: 10%;
+}
+
+.firstRow.filled{
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.test{
+    color: black;
+}
+hr{
+    margin: 0;
+    border: 1px solid black;
+}
+
+.firstRow {
+    background-color: white;
+    overflow:visible;
+    border: none;
+    height: clamp(20px, 30px, 30px);
+}
+
+.bottom{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bottom > label{
+    color: black;
+    font-weight: bolder;
+}
+
+.edit.active{
+    background-color: rgb(78, 216, 78);
+    border: none;
+    height: clamp(20px, 40px, 60px); 
+    width: clamp(40px, 80px, 100px);
+    border-radius: 5px;
+}
+
+.edit{
+    background-color: rgb(57, 96, 154);
+    border: none;
+    height: clamp(20px, 40px, 60px);
+    width: clamp(40px, 80px, 100px);
+    border-radius: 5px;
+}
+
+label{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cancel{
+    background-color: red;
+    border: none;
+    height: clamp(20px, 40px, 60px);
+    width: clamp(40px, 80px, 100px);
+    border-radius: 5px;  
+}
+
+.save{
+    background-color: rgb(65, 202, 65);
+    border: none;
+    height: clamp(20px, 40px, 60px);
+    width: clamp(40px, 80px, 100px);
+    border-radius: 5px;
+}

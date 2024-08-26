@@ -1,0 +1,84 @@
+.textContainer{
+    display:flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top:10px;
+}
+
+input{
+    border: none;
+}
+
+.title,.subTitle{
+    font-weight: bolder;
+    font-size: 14px;
+    max-width: 500px;
+    overflow: visible;
+}
+
+.dash{
+    margin: 0;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 2px;
+    font-size: 20px;
+}
+
+.titleDiv{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 8%;
+    padding-right: 10%;
+}
+
+
+.pointDiv{
+    display:flex;
+    justify-content: space-between;
+
+}
+.dateDiv{
+    display:flex;
+    width:fit-content;
+}
+
+.startDate{
+    padding: 0;
+    max-width:110px;
+    text-align:end;
+}
+
+.endDate{
+    margin:2px;
+}
+
+.subTitle{
+    width:1000px;
+}
+
+.removeSection{
+    max-width: 300px;
+    background-color: rgb(248, 104, 104);
+}
+
+.bulletDiv{
+    display:flex;
+    align-items: center;
+}
+
+.bulletPara {
+    max-width: 900px;
+    display:flex;
+    max-height:100px;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    overflow: visible;
+    align-self:flex-end;
+    border:none;
+    resize: none;
+    margin-bottom: 4px;
+}
+
+.addBullet{
+    max-width: 100px;
+}

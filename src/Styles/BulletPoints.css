@@ -1,0 +1,16 @@
+.removeBullet{
+    border: none;
+    background-color: rgb(251, 55, 55);
+    border-radius: 100px;
+    max-width: 20px;
+    max-height: 15px;
+    font-size: large;
+    font-weight: bolder;
+    padding:0px;
+    padding-top: 0;
+    text-align: center;
+    flex: 1 1 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
